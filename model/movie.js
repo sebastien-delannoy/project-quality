@@ -11,7 +11,7 @@ const schema = mongoose.Schema({
   genre: String,
   synopsis: String,
   director: String,
-  actors: String,
+  actors: String
 });
 
 module.exports = mongoose.model("movie", schema);
